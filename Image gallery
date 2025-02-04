@@ -41,3 +41,64 @@
 
 </body>
 </html>
+
+body{
+  justify-content: : center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: grid;
+  background: linear-gradient(113deg,orange ,white,green);
+
+}
+.image1,.image2,.image3,.image4,.image5{  
+  border: solid;
+  height: 275px;
+  width: 27%;
+  padding : 0;
+  border-radius: 5%;
+  margin-left: 40px ;
+  margin-top: 30px;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(  auto-fit  , minmax(250px,1fr ));
+  content: center;
+  
+}
+.image6,.image7,.image8,.image9,.image10,.image11,.image12,.image13,.image14,.image15{  
+  border: solid;
+  height: 275px;
+  width: 27%;
+  padding : 0;
+  border-radius: 5%;
+  margin-left: 40px ;
+  margin-top: 30px;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(  auto-fit  , minmax(250px,1fr ));
+  content: center;
+  
+}
+.image16,.image17,.image18,.image19,.image20,.image21,.image22,.image23,.image24{  
+  border: solid;
+  height: 275px;
+  width: 27%;
+  padding : 0;
+  border-radius: 5%;
+  margin-left: 40px ;
+  margin-top: 30px;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(  auto-fit  , minmax(250px,1fr ));
+  content: center;
+  
+}
+
+h1{
+  text-align: center;
+  background: linear-gradient(123deg,orange ,white,green);
+  text-decoration-style: italic;
+  justify-content: center;
+  font-style: italic;
+  font-size: 400%;}
+
